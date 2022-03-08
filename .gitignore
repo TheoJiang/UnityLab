@@ -61,3 +61,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+UnityLab/Library/
+
+UnityLab/Logs/
+
+UnityLab/obj/
+
+UnityLab/Temp/
