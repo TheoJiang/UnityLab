@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using NaughtyAttributes;
 using UnityEngine;
 
 public class VexelLighting : MonoBehaviour
@@ -22,8 +23,8 @@ public class VexelLighting : MonoBehaviour
     }
     List<Color> colors;
     List<Vector4> pos;
-
-    void DivideSpace()
+    
+    public void DivideSpace()
     {
         List<float> cofs = new List<float>();
         pos = new List<Vector4>();
